@@ -19,6 +19,7 @@ section {
     background-color: #510000;
 }
 
+/* Styling of the 1st slide for the search buttons/form  */
 .container {
     width: 90%;
     height: auto;
@@ -60,7 +61,16 @@ form input {
 
 form .fa-solid {
     width: 9%;
-    font-size: 18px;
+    font-size: 16px;    
+    color: #b2b2b2;
+}
+
+/* Styling of the search results slide  */
+
+.result {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;       
 }
 
 img {
@@ -68,4 +78,6 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+
 
