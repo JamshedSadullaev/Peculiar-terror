@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://kit.fontawesome.com/9bc8e54730.js" crossorigin="anonymous"></script>
     <title>Meals & Cocktails</title>
 </head>
 <body>
@@ -11,14 +16,15 @@
     <section>
         <div class="container">
             <h1 class="logo">Meals & Cocktails</h1>
-    <!-- adding forms to perform the search          -->
-            <p class="food">Type ingredient below to search for your Meal:</p>
+    <!-- adding forms to perform the search          -->            
             <form>
-                <input type="text" placeholder="Type ingredient...">                
+                <input type="text" placeholder="Type food ingredient to search your meal...">
+                <i class="fa-solid fa-magnifying-glass"></i>                               
             </form>
-            <p class="drink">Type ingredient below to search for your Cocktail:</p>
+            <h2 class="br"> OR </h2>            
             <form>
-                <input type="text" placeholder="Type ingredient...">                
+                <input type="text" placeholder="Type drink ingredient to search your cocktail...">
+                <i class="fa-solid fa-magnifying-glass"></i>                               
             </form>
             <div class="result">
                 <div class="product">
@@ -28,12 +34,14 @@
                         <a href="#">View Recipe</a>
                         <a href="#">Save Recipe</a>                         
                     </div>
+                    <p class="product-info"></p>
                     <img src="./images/cocktail.jpeg" alt="placeholder drink image">
                     <div class="flex-container">
                         <h1 class="rcptitle">This is your Cocktail recipe</h1>
                         <a href="#">View Recipe</a>
                         <a href="#">Save Recipe</a>                        
                     </div>
+                    <p class="product-info">Total Calories: 111</p>
                 </div>
             </div>
         </div>
