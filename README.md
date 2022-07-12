@@ -14,6 +14,6 @@ I as a user want to be able to open and navigate a page that provides recepies i
 
 Given when user opens a page it is a working page that displays the Title of the page and has two options of either meals or drinks
 Then we click on of the and we can see available recepies. 
-
+Jujst any chance
 
 
