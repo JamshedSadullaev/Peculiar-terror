@@ -20,10 +20,6 @@ I as a user I want to be able to open and navigate a page that provides recepies
 
 ## Acceptance Creteria 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 528d56aa95548b6908c2e5fd8617694e0d33eff6
 Given a webpage functions properly
 When I can see a hero with title of the page
 Then I can understand the purpose of the webpage 
@@ -41,7 +37,14 @@ Then I am able to save the link to that recipe in the side bar by using local st
 ## Mock-UP
 
 
+
 ### Link to the webpage: https://jamshedsadullaev.github.io/Peculiar-terror/
+
+
+
+
+### Link to the webpage: 
+
 
 
 
