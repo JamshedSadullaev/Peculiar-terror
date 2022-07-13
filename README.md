@@ -20,7 +20,6 @@ I as a user I want to be able to open and navigate a page that provides recepies
 
 ## Acceptance Creteria 
 
-
 Given a webpage functions properly
 When I can see a hero with title of the page
 Then I can understand the purpose of the webpage 
@@ -38,13 +37,16 @@ Then I am able to save the link to that recipe in the side bar by using local st
 ## Mock-UP
 
 
+
+### Link to the webpage: https://jamshedsadullaev.github.io/Peculiar-terror/
+
+
+
+
 ### Link to the webpage: 
 
 
 
-Given when user opens a page it is a working page that displays the Title of the page and has two options of either meals or drinks
-Then we click on of the and we can see available recepies. 
-Jujst any chance
 
 
 
