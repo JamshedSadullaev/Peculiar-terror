@@ -18,6 +18,7 @@ section {
 }
 
 /* Styling of the 1st slide for the search buttons/form  */
+
 .container {
     width: 100%;
     height: auto;
@@ -53,15 +54,11 @@ form input {
     display: inline-block;
 }
 
-form .fa-solid {
-    width: 9%;
-    font-size: 16px;    
-    color: #b2b2b2;
-}
+
 
 /* Styling of the search results slide  */
 
-.result {
+.MealResult {
     margin-top: 50px;
     width: 100%;
     display: grid;       
@@ -89,6 +86,38 @@ h3 {
     font-weight: 400;
     line-height: 24px;
 }
+
+
+
+
+.recipe-meal-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.recipe-link{
+    margin: 1.4rem 0;
+}
+.recipe-link a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.recipe-link a:hover{
+    opacity: 0.8;
+
+
 .heroIMG {
     background-image: url("image2.jpg");
     background-color: orange;
@@ -101,4 +130,5 @@ h3 {
 
 .br {
     text-align: center;
+
 }
