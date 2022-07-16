@@ -13,30 +13,61 @@
     <title>Meals & Cocktails</title>
 </head>
 <body>
-    <!-- adding the breakdown of the slides  -->
-    <section>
-        <div class="container">
-            <h1 class="logo">Meals & Cocktails</h1>
-    <!-- adding forms to perform the search          -->            
-            <form>
-                <input type="text" placeholder="Type food ingredient to search your meal...">
-                <i class="fa-solid fa-magnifying-glass"></i>                               
-            </form>
-            <h2 class="br"> OR </h2>            
+  <!-- added hero for the logo by MM -->
+  <section class="hero is-medium is-link ">
+  <div class="hero-body heroIMG">
+    <p class="title titleStyle title is-1 has-text-black has-text-centered has-text-weight-bold">
+      Meal and Cocktail Recipes 
+     </p>
+    <p class="subtitle is-1 has-text-black titleStyle has-text-centered ">
+    Just one click away!
+    </p>
+  </div>
+</section>
+
+    <!-- adding forms to perform the search                     
+            <form class = "meal-search-box">
+                    <input type="text" class = "search-controlF" id = "search-inputF" placeholder="Type food ingredient to search your meal...">
+                    <button id="search-btnF" type="submit" class="search-btn btn"><i class="fa-solid fa-magnifying-glass"></i></button>                          
+            </form> -->
+            <div class = "meal-search-box">
+                <input type = "text" class = "search-controlF" placeholder="Type food ingredient to search your meal..." id = "search-inputF">
+                <button type = "submit" class = "search-btn btn" id = "search-btnF">
+                  <i class = "fas fa-search"></i>
+                </button>
+            </div>
+
+            <h2 class="br"> NEED A DRINK TO GO WITH IT?</h2>
             <form>
                 <input type="text" placeholder="Type drink ingredient to search your cocktail...">
                 <i class="fa-solid fa-magnifying-glass"></i>                               
             </form>
+
+            <div class = "meal-result">
+                <h2 class = "title">Your Search Results:</h2>
+                <div id= "meal">
+                </div>
+            </div>
+            <div class = "meal-details">
+                <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <div class = "meal-details-content">
+                </div>
+            </div>
+            
+
+
         <!-- adding the search results in this slide         -->
-            <div class="result">
+            <!--<div class="result">
                 <div class="product">
                     <img src="./images/food.jpeg" alt="placeholder food image">
                     <div class="flex-container">
                         <h1 class="rcptitle">This is your Meal recipe</h1>
                         <a href="#">View Recipe</a>
                         <a href="#">Save Recipe</a>                         
-                    </div>
-                    <div class ="container">
+                    </div>-->
+                    <!--<div class ="container">
                         <h3>Popular Drinks</h3>
                         <div class="row"></div>
                         
@@ -95,10 +126,10 @@
                             </div>
                             
                         </div>
-                    </div>
-                    <p class="product-info">Total Calories: 111</p>
+                    </div>-->
+                   <!-- <p class="product-info">Total Calories: 111</p>-->
                     <!-- <img src="./images/cocktail.jpeg" alt="placeholder drink image"> -->
-                    <div class="flex-container">
+                     <!--<div class="flex-container">
                         <h1 class="rcptitle">This is your Cocktail recipe</h1>
                         <a href="#">View Recipe</a>
                         <a href="#">Save Recipe</a>                                                
@@ -106,8 +137,7 @@
                     <p class="product-info">Total Calories: 111</p>
                 </div>
             </div>
-        </div>
-
-    </section>
+        </div>-->
+<script src="./assets/script.js"></script>
 </body>
 </html>
