@@ -58,9 +58,9 @@ function mealRecipeModal(meal){
     meal = meal[0];
  
     let html = `
-        <h2 class = "recipe-title">${meal.strMeal}</h2>
-        <p class = "recipe-category">${meal.strCategory}</p>
-        <div class = "recipe-instruct">
+        <h2 class = "mx-auto" style="width: 900px; recipe-title">${meal.strMeal}</h2>
+        <p class = "mx-auto" style="width: 900px; recipe-category">${meal.strCategory}</p>
+        <div class = "mx-auto" style="width: 900px; recipe-instruct">
             <h3>Instructions:</h3>
             <p>${meal.strInstructions}</p>
         </div>
