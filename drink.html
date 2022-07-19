@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/9bc8e54730.js" crossorigin="anonymous"></script>
+    <title>Meals & Cocktails</title>
+</head>
+<body>
+  <!-- added hero for the logo by MM -->
+  <section class="hero is-medium is-link ">
+    <div class="hero-body heroIMG">
+        <p class="title titleStyle title is-1 has-text-black has-text-centered has-text-weight-bold">
+        Meal and Cocktail Recipes 
+        </p>
+        <p class="subtitle is-1 has-text-black titleStyle has-text-centered ">
+        Just one click away!
+        </p>
+    </div>
+
+
+    <button class="button is-success is-focused"><h2><a href="./main.html">HOME</a></h2></button>
+    <button class="button is-danger is-focused"><h2><a href="./food.html">FOOD</a></h2></button>  
+    <button class="button is-warning is-focused"><h2><a href="./drink.html">DRINK</a></h2></button>
+    </br>
+    </br>
+    <div class = "drink-search-box" style="text-align:center ;">
+        <input type = "text" class = "search-controlD" placeholder="Type drink ingredient to search your cocktail..." id = "search-inputD">
+        <button type = "submit" class = "search-btn btn" id = "search-btnD">
+          <i class = "fas fa-search"></i>
+        </button>
+    </div>
+
+    <div>
+        <h5 style="text-align:center ;">Don't forget: Select the recipe  and look at the end of the page</h5>
+    </div>
+
+    <div class = "drink-result">
+        <h5></h5>
+        <div id= "drink">
+        </div>
+    </div>
+
+    <div class = "drink-details">
+        <div class = "drink-details-content">
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="content has-text-centered">
+        </br>
+        </br>
+        </br>
+            <p>
+                <h6>This project is made by PECULIAR-TERROR</h6>
+                <h6>2022</h6>
+            </p>
+        </div>
+    </footer>
+
+    <script src="./assets/drink.js"></script>
+</body>
+</html>
