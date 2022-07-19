@@ -1,19 +1,16 @@
 const searchBtnF = document.getElementById('search-btnF');
 const mealList = document.getElementById('meal');
 const mealDetailsContent = document.querySelector('.meal-details-content');
-const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
 searchBtnF.addEventListener('click', createMealList);
 mealList.addEventListener('click', MealRecipe);
-recipeCloseBtn.addEventListener('click', () => {
-    mealDetailsContent.parentElement.classList.remove('showRecipe');
-});
 
 
 function createMealList(){
-    let searchInputTxt = document.getElementById("search-inputF").value;
-    console.log(searchInputTxt);
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
+    
+    let searchInputF = document.getElementById("search-inputF").value;
+    console.log(searchInputF);
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputF}`)
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -27,7 +24,7 @@ function createMealList(){
                           </div>
                           <div class = "meal-name">
                               <h3>${meal.strMeal}</h3>
-                              <a href = "#" class = "recipe-btn">Get Recipe</a>
+                              <a href ="#buttom" class = "recipe-btnF">Get Recipe</a>
                           </div>
                       </div>
                 `;
@@ -44,24 +41,23 @@ function createMealList(){
 
 function MealRecipe(e){
     e.preventDefault();
-    if(e.target.classList.contains('recipe-btn')){
+    if(e.target.classList.contains('recipe-btnF')){
         let mealItem = e.target.parentElement.parentElement;
-       
+
         fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`)
         .then(response => response.json())
-        .then(data => mealRecipeModal(data.meals));
+        .then(data => mealRecipeForm(data.meals));
     }
 }
 
-function mealRecipeModal(meal){
+function mealRecipeForm(meal){
     console.log(meal);
     meal = meal[0];
  
     let html = `
         <h2 class = "recipe-title">${meal.strMeal}</h2>
-        <p class = "recipe-category">${meal.strCategory}</p>
         <div class = "recipe-instruct">
-            <h3>Instructions:</h3>
+            <h3 class = "recipe-title">Instructions:</h3>
             <p>${meal.strInstructions}</p>
         </div>
         <div class = "recipe-meal-img">
@@ -70,7 +66,9 @@ function mealRecipeModal(meal){
         <div class = "recipe-link">
             <a href = "${meal.strYoutube}" target = "_blank">Watch Video</a>
         </div>
+        <div class = "another-search">
+            <a href = "./food.html">Make Another Search</a>
+        </div>
     `;
     mealDetailsContent.innerHTML = html;
-    mealDetailsContent.parentElement.classList.add('showRecipe');
 }
