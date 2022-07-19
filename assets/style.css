@@ -119,7 +119,7 @@ h3 {
 
 
 .heroIMG {
-    background-image: url("image2.jpg");
+    background-image: url("./assets/image2.jpg");
     background-color: orange;
     
   }
