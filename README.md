@@ -17,23 +17,25 @@ Mavluda Muminova
 
 ## User Story 
 
-I as a user I want to be able to open and navigate a page that provides recepies  of meals and cocktails by search based on the ingredient or can choose from popular options so that I can save and revisit recepes. 
+As a user I want to be able to open and navigate a page that provides 3 clickable options one for food and  one for drink recipes that will open up a search bar where I can type in desired ingredient to get results based on the input. As well clickable home button to take me home. Each recipe provides an option to view the recipe and to save it.
 
 ## Acceptance Creteria 
 ```
 Given a webpage functions properly
 When I can see a hero with title of the page
 Then I can understand the purpose of the webpage 
-When I can see both search engines (one for drinks and one for cocktails)
-Then I am able to enter name of the  ingredient and generate the search of recipes based on it
-When I can view the main section of the webpage
-Then I am presented with 6 popular recepes for drinks and 6 popular recepies of meals on the main page 
-When I see and image with the recipes  
-Then I can press one of two buttons under a recipe image: view recipe and save recipe
-When I am presented with view recipe button
-Then I am able to press the button and get redirected to webpage with that recipe
+when I click food button
+Then search bar for meal recipes will appear
+When I click drink button
+Then search bas for drinks will appear
+When I type in desired ingredient
+Then I am able to see recipes with images appear on a webpage
+When I click get recipe button under the image
+Then I am able to view the cooking instructions on the bottom of the page
 When I am presented with save recipe button 
 Then I am able to save the link to that recipe in the side bar by using local storage 
+When i see a meal recipe 
+Then for the most of them I can see the link to youtube video with it 
 ```
 
 ## Mock-UP
@@ -45,7 +47,6 @@ Then I am able to save the link to that recipe in the side bar by using local st
 
 
 
-### Link to the webpage: 
 
 
 
