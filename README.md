@@ -1,50 +1,61 @@
-# Peculiar-terror
+# 👩‍💻Team Peculiar-Terror👨‍💻
 ---
 
-## Project Food and Drinks
 
-Project Food and Drinks is designated for anyone who is looking for recipes of meals and cocktails. User will be presented with two search bars, box for saved recipes. Each search bar will give an ability to search recipes based on ingredient of their choice. Main page will also have a box where saved recipes will be listed as links in order to give the ability to revisit the recipes as user saves them. Main page will also have a section with popular recipes for user to choose from. 
-Goal of the project is to create easy to navigate website that has polished design and has an option to save the recepes.
+## 🍸🍽️Food and Drinks Website
 
-#### Contributors 
+This website is designed for Food and Drinks recipes for anyone who is looking for meals and cocktails. User will be presented with two search bars. Each search bar will give the ability to search recipes based on an ingredient of their choice. The main page will also have a box where saved recipes will be listed as links in order to give the ability to revisit the recipes as user saves them. The goal of the project is to create an easy to navigate website that has a polished and attractive design.
+
+
+
+## ✍️User Story: 
 ```
-Pinar Aktas
-Meriem Powell
-Jamshed Sadullaev
-Mavluda Muminova
+As a user I want to be able to open and navigate a webpage that provides recipes of meals and cocktails, using an ingredient search base.
 ```
 
 
-## User Story 
-
-As a user I want to be able to open and navigate a page that provides 3 clickable options one for food and  one for drink recipes that will open up a search bar where I can type in desired ingredient to get results based on the input. As well clickable home button to take me home. Each recipe provides an option to view the recipe and to save it.
-
-## Acceptance Creteria 
+## 📑Acceptance Creteria: 
 ```
 Given a webpage functions properly
 When I can see a hero with title of the page
 Then I can understand the purpose of the webpage 
-when I click food button
-Then search bar for meal recipes will appear
-When I click drink button
-Then search bas for drinks will appear
-When I type in desired ingredient
-Then I am able to see recipes with images appear on a webpage
-When I click get recipe button under the image
-Then I am able to view the cooking instructions on the bottom of the page
-When I am presented with save recipe button 
-Then I am able to save the link to that recipe in the side bar by using local storage 
-When i see a meal recipe 
-Then for the most of them I can see the link to youtube video with it 
+When I can see both search engines (one for drinks and one for cocktails)
+Then I am able to enter name of the  ingredient and generate the search of recipes based on said ingredient
+When I can view the main section of the webpage
+Then I am presented with recipes for drinks OR for meals on the main page 
+When I see an image with the recipe
+Then I can press Get Recipe button
+When I click on the Get Recipe button
+Then I am able to scroll down to the bottom of the page to view detailed recipe
+When I want to make a new search
+Then I can click the Make New Search button and get directed to top of page to make a new search  
 ```
 
-## Mock-UP
+## 📸Screenshot:
 
 
 
-### Link to the webpage: https://jamshedsadullaev.github.io/Peculiar-terror/
 
 
+### 💻Link to the Website: 
+
+* https://jamshedsadullaev.github.io/Peculiar-terror/
+
+
+
+### 📂Link to the Repo: 
+
+* https://github.com/JamshedSadullaev/Peculiar-terror 
+
+
+
+
+### ✒️Authors:
+
+* Pinar Aktas
+* Meriem Powell
+* Jamshed Sadullaev
+* Mavluda Muminova
 
 
 
