@@ -42,7 +42,7 @@ to top of page to make a new search
 
 ## 📹Website Demo:
 
-![Meals and Cocktails App Demo](/assets/MealsCocktails.gif)
+![Meals and Cocktails App Demo](/assets/MealsCocktailsDemo.gif)
 
 
 
