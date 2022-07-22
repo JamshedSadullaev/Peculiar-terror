@@ -10,7 +10,9 @@ This website is designed for Food and Drinks recipes for anyone who is looking f
 
 ## ✍️User Story: 
 ```
-As a user I want to be able to open and navigate a webpage that provides recipes of meals and cocktails, using an ingredient search base.
+As a user I want to be able to open and navigate a webpage 
+The webpage provides recipes of meals and cocktails
+The webpage's search engines function using an ingredient for either a cocktail or meal
 ```
 
 
@@ -19,21 +21,28 @@ As a user I want to be able to open and navigate a webpage that provides recipes
 Given a webpage functions properly
 When I can see a hero with title of the page
 Then I can understand the purpose of the webpage 
-When I can see both search engines (one for drinks and one for cocktails)
-Then I am able to enter name of the  ingredient and generate the search of recipes based on said ingredient
+When I can see both search engines 
+(one for drinks and one for cocktails)
+Then I am able to enter name of the  ingredient and generate 
+the list of recipes based on said ingredient
 When I can view the main section of the webpage
-Then I am presented with recipes for drinks OR for meals on the main page 
+Then I am presented with recipes for drinks OR for meals on 
+the main page 
 When I see an image with the recipe
-Then I can press Get Recipe button
+Then I am presented with a Get Recipe button
 When I click on the Get Recipe button
-Then I am able to scroll down to the bottom of the page to view detailed recipe
+Then I am able to scroll down to the bottom of the page to 
+view detailed recipe and instructions
+When I want to watch a video of the recipe making
+Then I can press the Watch Video button and be directed to a video
 When I want to make a new search
-Then I can click the Make New Search button and get directed to top of page to make a new search  
+Then I can click the Make New Search button and get directed 
+to top of page to make a new search  
 ```
 
-## 📸Screenshot:
+## 📹Website Demo:
 
-
+![Meals and Cocktails App Demo](/assets/Demo.gif)
 
 
 
@@ -46,7 +55,6 @@ Then I can click the Make New Search button and get directed to top of page to m
 ### 📂Link to the Repo: 
 
 * https://github.com/JamshedSadullaev/Peculiar-terror 
-
 
 
 
